@@ -1,0 +1,95 @@
+name: tmdb
+description: A movie app project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  # sdk: ">=2.19.5 <3.0.0"
+  sdk: ">3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.1.1
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+  flutter_config: ^2.0.2
+  carousel_slider: ^4.2.1
+  image: ^3.0.2
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.9
+  pull_to_refresh: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+  image_picker: ^0.8.7+4
+  intl: ^0.18.1
+  flutter_staggered_grid_view: ^0.6.2
+  flutter_screenutil: ^5.9.0
+  youtube_player_flutter: ^9.0.0
+  shimmer: ^3.0.0
+  lottie: ^2.6.0
+  flutter_rating_bar: ^4.0.1
+  pod_player: ^0.1.5
+  flutter_secure_storage: ^8.1.0
+  navigation_history_observer: ^1.1.1
+  shared_preferences: ^2.2.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  bloc_concurrency: ^0.2.5
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/shared_ui/assets/icons/home_icon.svg
+    - lib/shared_ui/assets/icons/favorite_icon.svg
+    - lib/shared_ui/assets/icons/search_icon.svg
+    - lib/shared_ui/assets/icons/profile_icon.svg
+    - lib/shared_ui/assets/icons/trending_icon.svg
+    - lib/shared_ui/assets/icons/tv_show_icon.svg
+    - lib/shared_ui/assets/icons/best_drama_icon.svg
+    - lib/shared_ui/assets/icons/upcoming_icon.svg
+    - lib/shared_ui/assets/icons/top_rated_icon.svg
+    - lib/shared_ui/assets/icons/born_today_icon.svg
+    - lib/shared_ui/assets/icons/popular_icon.svg
+    - lib/shared_ui/assets/icons/now_playing_icon.svg
+    - lib/shared_ui/assets/icons/artist_icon.svg
+    - lib/shared_ui/assets/icons/trailer_icon.svg
+    - lib/shared_ui/assets/icons/filter_icon.svg
+    - lib/shared_ui/assets/icons/related_icon.svg
+    - lib/shared_ui/assets/icons/add_watch_list_icon.svg
+    - lib/shared_ui/assets/icons/added_watch_list_icon.svg
+    - lib/shared_ui/assets/icons/provider_icon.svg
+    - lib/shared_ui/assets/icons/genre_icon.svg
+    - lib/shared_ui/assets/icons/backward_icon.svg
+    - lib/shared_ui/assets/icons/forward_icon.svg
+    - lib/shared_ui/assets/icons/playback_speed_icon.svg
+    - lib/shared_ui/assets/icons/volume_off_icon.svg
+    - lib/shared_ui/assets/icons/volume_on_icon.svg
+    - lib/shared_ui/assets/icons/tmdb_icon.svg
+    - lib/shared_ui/assets/icons/amazon_icon.svg
+    - lib/shared_ui/assets/icons/facebook_icon.svg
+    - lib/shared_ui/assets/icons/google_icon.svg
+    - lib/shared_ui/assets/icons/apple_icon.svg
+    - lib/shared_ui/assets/icons/eye_open_icon.svg
+    - lib/shared_ui/assets/icons/eye_close_icon.svg
+    - lib/shared_ui/assets/icons/option_icon.svg
+    - lib/shared_ui/assets/icons/settings_icon.svg
+    - lib/shared_ui/assets/images/corgi.jpg
+    - lib/shared_ui/assets/images/background.png
+    - lib/shared_ui/assets/images/no_image.png
+    - lib/shared_ui/assets/images/no_image_man.png
+    - lib/shared_ui/assets/images/no_image_woman.png
+    - lib/shared_ui/assets/images/no_image_other_gender.png
+    - lib/shared_ui/assets/images/tmdb_primary_short.svg
+    - lib/shared_ui/assets/animations/loading_animation.json
+    - lib/shared_ui/assets/animations/panda_walk_animation.json
+    - lib/shared_ui/assets/animations/panda_sleep_animation.json

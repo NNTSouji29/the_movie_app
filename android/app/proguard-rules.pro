@@ -1,0 +1,1 @@
+-keep class [your_android_package_name].BuildConfig { *; }

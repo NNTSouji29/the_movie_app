@@ -1,0 +1,1 @@
+export 'favorite_movie_view.dart';
